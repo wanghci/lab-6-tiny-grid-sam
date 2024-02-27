@@ -55,5 +55,22 @@
   }
   nav ul {
     flex-direction: column;
+  
+}
+}
+@media (max-width: 375px) {
+  .wrapper {
+    grid-template-areas:
+      "content"
+  }
+  .content {
+    display: block;
+    width: 100%;
+  }
+  
+  .main-nav, .side, .ad, .main-head, .main-footer {
+    display: none;
   }
 }
+  
+  
